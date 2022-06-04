@@ -263,6 +263,7 @@ service adsprpcd_sensorspd /vendor/bin/adsprpcd sensorspd
    class main
    user system
    group system
+   disabled
 
 service cdsprpcd /vendor/bin/cdsprpcd
    class main
