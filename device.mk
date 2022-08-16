@@ -493,12 +493,12 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.device@3.6.vendor \
     android.hardware.camera.metadata@3.5.vendor \
     android.hardware.camera.provider@2.6.vendor \
-    android.hardware.common-V1-ndk_platform.vendor \
+    android.hardware.common-V1-ndk.vendor \
     android.hardware.drm@1.3.vendor \
     android.hardware.fastboot@1.0.vendor \
     android.hardware.gatekeeper@1.0.vendor \
     android.hardware.gnss@2.1.vendor \
-    android.hardware.graphics.common-V1-ndk_platform.vendor \
+    android.hardware.graphics.common-V1-ndk.vendor \
     android.hardware.graphics.composer@2.4.vendor \
     android.hardware.health@2.1.vendor \
     android.hardware.keymaster@4.1.vendor \
