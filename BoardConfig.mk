@@ -96,6 +96,9 @@ BOARD_KERNEL_SEPARATED_DTBO := true
 TARGET_KERNEL_SOURCE := kernel/realme/r5x
 TARGET_KERNEL_CLANG_COMPILE := true
 TARGET_KERNEL_CONFIG := vendor/r5x_defconfig
+TARGET_KERNEL_CLANG_VERSION := clang-r437112
+TARGET_KERNEL_CLANG_PATH := $(shell pwd)/prebuilts/clang/host/linux-x86/clang-r437112
+TARGET_KERNEL_LLVM_BINUTILS := false
 
 # QCOM hardware
 BOARD_USES_QCOM_HARDWARE := true
